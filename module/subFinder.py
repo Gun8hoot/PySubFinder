@@ -31,6 +31,5 @@ def finder(WL, URL):
         f.close()
         
     except KeyboardInterrupt:
-        print ("\033[A                \033[A")
         sys.exit()
         
